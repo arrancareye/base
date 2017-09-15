@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 90px;
+    width: 1140px;
+    background: #1abc9c;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: background ease 1.5s;
+}
+
+header:hover{
+    background: #3498db;
+}
+
+header>a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    transition-property: color;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+}
+
+header>a:hover{
+    color: #34495e;
+}
